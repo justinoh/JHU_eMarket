@@ -5,4 +5,6 @@
 
 $site_title = 'FirstWebsite 2.0';
 $page_title = 'Home Page';
+
+// THIS IS A TEST
 ?>
