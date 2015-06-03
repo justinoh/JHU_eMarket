@@ -1,0 +1,6 @@
+SQL Commands:
+
+Querying data examples using PHP:
+
+$q = SELECT * FROM pages  ---> set a query variable = Select all column data from table 'pages'
+$r = mysqli_query($dbc, $q) ---> run the sql query 'q' using the database connection 'dbc', store to 'r'

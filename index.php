@@ -1,13 +1,17 @@
-<?php include 'config/setup.php'; ?>
+<?php 
+	include 'config/setup.php'; 
+	$q = "SELECT * FROM pages WHERE id = 1";
+	$r = mysqli_query($dbc, $q);
+?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><?php echo $page_title. '|' .$site_title; ?></title>
+		<title><?php echo $page_title.' | '.$site_title; ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<?php include 'config/css.php'; ?>
 		<?php include 'config/js.php'; ?>
 	</head>
-	
+		
 	<body>
 		<nav class="navbar navbar-default" role="navigation"><!-- START MAIN NAVIGATION -->
 			<div class="container">
